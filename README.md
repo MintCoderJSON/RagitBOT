@@ -1,4 +1,4 @@
-RagitBOT
+
 RagitBOT is a simple Java spambot designed for harmless pranks and fun. Use it responsibly, and ensure you have the consent of all parties involved before deploying it.
 
 Features
