@@ -1,3 +1,5 @@
+// Created by gCoder 16/7/2023
+
 import java.awt.AWTException;
 import java.awt.Desktop;
 import java.awt.FlowLayout;
@@ -139,9 +141,14 @@ public class RagitbotAdvanced {
                     public void actionPerformed(ActionEvent evt) {
                         label.setText("RagitBOT update completed!");
                         updateButton.setVisible(false);
-                        frame.setTitle("RagitBot version 1.1.4 - Welcome Updated.Ragit.User#1010");
-                        
-                        Timer timer2 = new Timer(2000, new ActionListener() {
+                        frame.setTitle("RagitBot version 1.1.4 - Welcome Updated.Ragit.User.1");  
+                         
+			    // Will probably add the feature to recognize the user from the username after the update process.
+			    // I think i'll implement the feature of user remembering and login stuff.
+			    // :-3  
+                       
+			
+			Timer timer2 = new Timer(2000, new ActionListener() {
                             public void actionPerformed(ActionEvent evt) {
                                 label.setText("Enter the text you want to spam below");
                             }
